@@ -18,7 +18,7 @@ inputBox.addEventListener("keydown", (e) => {
             latitude = result[0].lat;
         };
 
-        geocodingCity().then(() => {·
+        geocodingCity().then(() => {
             console.log('Success');
         })
             .catch(() => {
